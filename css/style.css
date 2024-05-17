@@ -1,0 +1,67 @@
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 80px;
+
+}
+
+.caption,
+.blockquote {
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+}
+
+.auther {
+    font-family: "Playfair Display", serif;
+
+    font-size: 20px;
+
+
+}
+
+.contain {
+    position: relative;
+    z-index: 50;
+    border-radius: 15px;
+    background-color: rgba(144, 233, 253, 0.992);
+    max-height: 400px;
+    min-height: 150px;
+}
+
+.contain::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    /* background-color: rgba(218, 241, 246, 0.764); */
+    background-color: rgba(144, 233, 253, 0.992);
+
+
+    top: 27%;
+    left: -15px;
+    rotate: 45deg;
+    z-index: -50;
+}
+
+.blockquote {
+    font-size: 30px;
+    /* color: rgb(65, 65, 65); */
+    color: white;
+}
+
+
+button {
+    background-color: rgb(157, 157, 157);
+    color: white;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: rgb(205, 204, 204);
+
+    color: black;
+}
+
+.image {
+    width: 66px;
+    height: 66px;
+}
